@@ -1,0 +1,23 @@
+.sect img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.sect{
+    margin-top: 50px;
+    margin-left: 80%;
+}
+.number p{
+    color: #000;
+
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.sect2{
+    position: relative;
+    top: 180px;
+}
