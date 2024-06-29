@@ -37,7 +37,7 @@ function Login() {
         try {
             const data = await user.confirm(otp)
             console.log(data);
-                    Navigate('/dash')
+                    Navigate(`/dash/${phone}`)
                         
 
         }

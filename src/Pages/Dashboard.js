@@ -1,6 +1,6 @@
 import React from 'react'
 import './Dashboard.css'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 
 function Dashboard() {
 
@@ -9,6 +9,9 @@ function Dashboard() {
     const logout =()=>{
         Navigate('/')
     }
+
+    let {id} = useParams();
+    console.log(id);
 
 
   return (
@@ -20,7 +23,7 @@ function Dashboard() {
             
             <div className="sect2">
                 <div className='number mb-5'>
-                    <p>808865463</p>
+                    <p>{id}</p>
                 </div>
                 <div className="logout">
                 <button onClick={logout} className="btn btn-primary">Logout</button>
